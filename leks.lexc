@@ -87,16 +87,16 @@ LEXICON N5dekl
 
 ! 5. deklinācija - e-stem variation
 LEXICON N5dekl_E
-        +N+Sg+Nom:  # ;   ! upe
-        +N+Sg+Gen:s # ;   ! upes
-        +N+Sg+Dat:i # ;   ! upei
-        +N+Sg+Acc:i # ;   ! upi
-        +N+Sg+Loc:ē # ;   ! upē
-        +N+Pl+Nom:s  # ;  ! upes
-        +N+Pl+Gen:ju  # ; ! upju
-        +N+Pl+Dat:ēm # ;  ! upēm
-        +N+Pl+Acc:es # ;  ! upes
-        +N+Pl+Loc:ēs # ;  ! upēs
+        +N+Sg+Nom:  # ;   
+        +N+Sg+Gen:s # ;   
+        +N+Sg+Dat:i # ;   
+        +N+Sg+Acc:i # ;   
+        +N+Sg+Loc:ē # ;  
+        +N+Pl+Nom:s  # ;  
+        +N+Pl+Gen:u  # ; 
+        +N+Pl+Dat:ēm # ;  
+        +N+Pl+Acc:es # ;  
+        +N+Pl+Loc:ēs # ;  
 
 ! 6. deklinācija - feminine i-stems
 LEXICON N6dekl
