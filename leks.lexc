@@ -16,6 +16,9 @@ LEXICON Nouns
 gald N1dekl;
 nam N1dekl;
 vec N1dekl;
+! New 1. deklinācija
+las N1dekl_Pal;
+slēdz N1dekl_Pal;
 ! 3. deklinācija
 tirg N3dekl;
 led N3dekl;
@@ -25,6 +28,8 @@ up:upe N5dekl_E; ! Special handling for e-stem
 ! 5. deklinācija - regular words
 māj N5dekl;
 iel N5dekl;
+! 6. deklinācija - feminine i-stems
+atskait N6dekl;
 ! Daudzskaitlinieks
 durv DSKdekl;
 
@@ -37,6 +42,19 @@ LEXICON N1dekl
         +N+Sg+Loc:ā # ;
         +N+Pl+Nom:i  # ;
         +N+Pl+Gen:u  # ;
+        +N+Pl+Dat:iem # ;
+        +N+Pl+Acc:us # ;
+        +N+Pl+Loc:os # ;
+
+! 1. deklinācija 
+LEXICON N1dekl_Pal
+        +N+Sg+Nom:is  # ;
+        +N+Sg+Gen:a # ;
+        +N+Sg+Dat:im # ;
+        +N+Sg+Acc:i # ;
+        +N+Sg+Loc:ī # ;
+        +N+Pl+Nom:i  # ;
+        +N+Pl+Gen:u  # ; 
         +N+Pl+Dat:iem # ;
         +N+Pl+Acc:us # ;
         +N+Pl+Loc:os # ;
@@ -79,6 +97,19 @@ LEXICON N5dekl_E
         +N+Pl+Dat:ēm # ;  ! upēm
         +N+Pl+Acc:es # ;  ! upes
         +N+Pl+Loc:ēs # ;  ! upēs
+
+! 6. deklinācija - feminine i-stems
+LEXICON N6dekl
+        +N+Sg+Nom:e  # ;
+        +N+Sg+Gen:es # ;
+        +N+Sg+Dat:ei # ;
+        +N+Sg+Acc:i # ;
+        +N+Sg+Loc:ē # ;
+        +N+Pl+Nom:es  # ;
+        +N+Pl+Gen:u  # ; 
+        +N+Pl+Dat:ēm # ;
+        +N+Pl+Acc:es # ;
+        +N+Pl+Loc:ēs # ;
 
 ! Daudzskaitlinieki
 LEXICON DSKdekl
