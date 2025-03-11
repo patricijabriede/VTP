@@ -41,7 +41,7 @@ LEXICON N1dekl
         +N+Pl+Loc:os # ;
 
 ! 3. deklinācija
-LEXICON N3dekl                    
+LEXICON N3dekl
         +N+Sg+Nom:us  #;
         +N+Sg+Gen:us #;
         +N+Sg+Dat:um #;
