@@ -20,8 +20,9 @@ vec N1dekl;
 tirg N3dekl;
 led N3dekl;
 med N3dekl;
-! 5. deklinācija
-up N5dekl;
+! 5. deklinācija - words with stem variation
+up:upe N5dekl_E; ! Special handling for e-stem
+! 5. deklinācija - regular words
 māj N5dekl;
 iel N5dekl;
 ! Daudzskaitlinieks
@@ -41,7 +42,7 @@ LEXICON N1dekl
         +N+Pl+Loc:os # ;
 
 ! 3. deklinācija
-LEXICON N3dekl
+LEXICON N3dekl                    
         +N+Sg+Nom:us  #;
         +N+Sg+Gen:us #;
         +N+Sg+Dat:um #;
@@ -53,6 +54,7 @@ LEXICON N3dekl
         +N+Pl+Acc:us #;
         +N+Pl+Loc:os #;
 
+! 5. deklinācija - regular pattern
 LEXICON N5dekl
         +N+Sg+Nom:a  # ;
         +N+Sg+Gen:as # ;
@@ -64,6 +66,19 @@ LEXICON N5dekl
         +N+Pl+Dat:ām # ;
         +N+Pl+Acc:as # ;
         +N+Pl+Loc:ās # ;
+
+! 5. deklinācija - e-stem variation
+LEXICON N5dekl_E
+        +N+Sg+Nom:  # ;   ! upe
+        +N+Sg+Gen:s # ;   ! upes
+        +N+Sg+Dat:i # ;   ! upei
+        +N+Sg+Acc:i # ;   ! upi
+        +N+Sg+Loc:ē # ;   ! upē
+        +N+Pl+Nom:s  # ;  ! upes
+        +N+Pl+Gen:ju  # ; ! upju
+        +N+Pl+Dat:ēm # ;  ! upēm
+        +N+Pl+Acc:es # ;  ! upes
+        +N+Pl+Loc:ēs # ;  ! upēs
 
 ! Daudzskaitlinieki
 LEXICON DSKdekl
