@@ -1,0 +1,74 @@
+"""Multichar_Symbols
+        +N      ! Noun tag
+        +Sg     ! Singular
+        +Pl     ! Plural
+        +Nom    ! Nominative
+        +Gen    ! Genitive 
+        +Dat    ! Dative
+        +Acc    ! Accusative
+        +Loc    ! Locative
+
+LEXICON Root
+        Nouns ; ! No input, no output
+
+LEXICON Nouns
+! 1. deklinācija
+gald N1dekl;
+nam N1dekl;
+vec N1dekl;
+! 3. deklinācija
+tirg N3dekl;
+led N3dekl;
+med N3dekl;
+! 5. deklinācija
+up N5dekl;
+māj N5dekl;
+iel N5dekl;
+! Daudzskaitlinieks
+durv DSKdekl;
+
+! 1. deklinācija
+LEXICON N1dekl
+        +N+Sg+Nom:s  # ;
+        +N+Sg+Gen:a # ;
+        +N+Sg+Dat:am # ;
+        +N+Sg+Acc:u # ;
+        +N+Sg+Loc:ā # ;
+        +N+Pl+Nom:i  # ;
+        +N+Pl+Gen:u  # ;
+        +N+Pl+Dat:iem # ;
+        +N+Pl+Acc:us # ;
+        +N+Pl+Loc:os # ;
+
+! 3. deklinācija
+LEXICON N3dekl                    
+        +N+Sg+Nom:us  #;
+        +N+Sg+Gen:us #;
+        +N+Sg+Dat:um #;
+        +N+Sg+Acc:u #;
+        +N+Sg+Loc:ū #;
+        +N+Pl+Nom:i  #;
+        +N+Pl+Gen:u  #;
+        +N+Pl+Dat:iem #;
+        +N+Pl+Acc:us #;
+        +N+Pl+Loc:os #;
+
+LEXICON N5dekl
+        +N+Sg+Nom:a  # ;
+        +N+Sg+Gen:as # ;
+        +N+Sg+Dat:ai # ;
+        +N+Sg+Acc:u # ;
+        +N+Sg+Loc:ā # ;
+        +N+Pl+Nom:as  # ;
+        +N+Pl+Gen:u  # ;
+        +N+Pl+Dat:ām # ;
+        +N+Pl+Acc:as # ;
+        +N+Pl+Loc:ās # ;
+
+! Daudzskaitlinieki
+LEXICON DSKdekl
+        +N+Pl+Nom:is  #;
+        +N+Pl+Gen:u  #;
+        +N+Pl+Dat:īm #;
+        +N+Pl+Acc:is #;
+        +N+Pl+Loc:īs #;
