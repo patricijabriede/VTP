@@ -24,8 +24,6 @@ med N3dekl;
 ugun N6dekl;
 sird N6dekl;
 nakt N6dekl;
-ziv N6dekl;
-av N6dekl;
 ! Daudzskaitlinieks
 durv DSKdekl;
 
@@ -71,7 +69,7 @@ LEXICON N6dekl
 ! Daudzskaitlinieki
 LEXICON DSKdekl
         +N+Pl+Nom:is  #;
-        +N+Pl+Gen:ju  #;  
+        +N+Pl+Gen:^M  #;  
         +N+Pl+Dat:īm #;
         +N+Pl+Acc:is #;
         +N+Pl+Loc:īs #;
